@@ -29,7 +29,7 @@
         <h4> More Harry Potter Characters </h4>
         <table>
             <tr>
-                <th> Name </th>
+                <th> Character </th>
                 <th> House </th>
             </tr>
             <tr>
@@ -49,6 +49,14 @@
                 <td> Slytherin </td>
             </tr>
         </table>
+        <h3> The Actor </h3>
+        <p> Robert Pattinson acted in a plethora of other (famous) movies as well!</p>
+        <ul>
+            <li> Twilight</li>
+            <li> Batman (next year!)</li>
+            <li> Remember Me </li>
+            <li> The Lighthouse </li>
+        </ul>
         <h3> Let's Chat! </h3>
         <p> Thank you for visiting! If you'd like to speak with me further about Robert Pattinson, fill out this form with your information and I can reach out to you!! </p>
         <form>
@@ -64,6 +72,17 @@
             <input type="radio" name="house" value="Slytherin"> Slytherin <br/>
             <input type="radio" name="house" value="Hufflepuff"> Hufflepuff <br/>
             <input type="radio" name="house" value="Ravenclaw"> Ravenclaw <br/>
+            <p> Enter your favorite character: </p>
+            <input type="text" list="characters" name="favoriteCharacter">
+            <datalist id="characters">
+                <option value= "Hermoine">
+                <option value= "Harry">
+                <option value= "Cedric">
+                <option value= "Ron">
+                <option value= "Draco">      
+            </datalist>
+            <input type="submit" value="Submit">
+            <br/>
             <br/>
             <input type="submit" value="Submit">
         </form>
