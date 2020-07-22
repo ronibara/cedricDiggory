@@ -1,8 +1,8 @@
-/* body {
-    background-image: url("https://www.publicdomainpictures.net/pictures/270000/velka/evergreen-tree-background.jpg");    
-    color: aliceblue;
+body {
+    background-image: url("assets/huffle.jpg");    
     background-repeat: repeat;
-} */
+    background-size: 10%
+}
 
 h1 {
     font-size: 25pt;
