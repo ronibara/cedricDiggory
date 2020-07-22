@@ -1,0 +1,35 @@
+/* body {
+    background-image: url("https://www.publicdomainpictures.net/pictures/270000/velka/evergreen-tree-background.jpg");    
+    color: aliceblue;
+    background-repeat: repeat;
+} */
+
+h1 {
+    font-size: 25pt;
+    color: rgb(10, 90, 10);
+}
+
+p {
+    font-size: 12pt;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.talkToMe {
+    background-color: rgb(231, 241, 231);
+    padding: 30px 50px 30px 50px;
+    margin: 1px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+div {
+    padding: 30px 50px 30px 50px;
+    margin: 30px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.tableau {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+}
